@@ -13,6 +13,7 @@ researcher = Agent(
     backstory="you are a senior news researcher and passinate about sports specially cricket",
     # llm=llm,
     tools=[search],
+    max_iter=5,
     verbose=True
 )
 
